@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Challenge</title>
+    <link rel="shortcut icon" href="Source/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Source/style.css">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="Source/BG_Music.mp3" type="audio/wav" />
+    </audio>
+    <div class="container">
+        <h1>Dice Challenge</h1>
+        <div id="dice">
+            <img src="Images/Dice_6.png" alt="dice1" id="dice1">
+            <img src="Images/Dice_6.png" alt="dice2" id="dice2">
+        </div>
+        <button id="hello1" type="button" onClick="dice1()">Roll Dice</button>
+        <div class="p1">
+            <h1>Player 1</h1>
+        </div>
+        <div>
+            <img src="Images/Welcome.gif" alt="gif1" id="gif1">
+        </div>
+        <button id="hello2" type="button" onClick="dice2()">Roll Dice</button>
+        <div>
+            <img src="Images/Welcome.gif" alt="gif2" id="gif2">
+        </div>
+        <div class="p2">
+            <h1>Player 2</h1>
+        </div>
+    </div>
+    <button id="start" type="button" onClick="start()">Start Game</button>
+    <a href="https://github.com/Manmohan63/Dice-Game"><button id="github" type="button">GitHub</button></a>
+    <button id="end" type="button" onClick="end()">End Game</button>
+</body>
+<script src="Source/index.js"></script>
+
+</html>
